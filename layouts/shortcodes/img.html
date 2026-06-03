@@ -19,6 +19,7 @@
 		{{- with .Get "width"}}width="{{.}}"{{ end -}}
 		{{- with .Get "height"}}height="{{.}}"{{ end -}}
 		{{- with .Get "mouse" }} title="{{.}}"{{ end -}}
+	     	loading="lazy"
 	>
 	{{- if .Get "link"}}</a>{{ end -}}
 	{{- with .Get "caption" -}}
